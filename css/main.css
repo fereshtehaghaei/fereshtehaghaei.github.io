@@ -33,7 +33,7 @@
 }
 
 .container .card {
-  background-color: rgba(255, 255, 255, 0.719);
+  background-color: rgba(255, 255, 255, 0.89);
   margin-top: -5rem;
   text-align: left;
   border: 0;
@@ -66,7 +66,7 @@
   font-size: 1rem;
 }
 
-main .card {
+.card {
   background-color: rgba(255, 255, 255, 0.781);
   margin-top: -8rem;
   text-align: left;
@@ -83,7 +83,7 @@ main .card {
   box-shadow: 0px 5px 25px 0px rgba(201, 15, 15, 0.2);
 }
 
-main .card .card-body {
+.card .card-body {
   color: black;
   font-size: 1.1rem;
   margin-right: -10rem;
@@ -92,7 +92,7 @@ main .card .card-body {
   text-align: left;
 }
 
-main .card .card-body .title {
+.card .card-body .title {
   text-align: left;
 }
 
@@ -179,7 +179,7 @@ a {
 }
 
 .cc-education2 .card {
-  background-color: rgba(255, 255, 255, 0.719);
+  background-color: rgba(255, 255, 255, 0.925);
   border: 0;
   border-radius: 2rem;
   display: inline-block;
@@ -224,7 +224,7 @@ a {
 }
 
 .cc-education3 .card {
-  background-color: rgba(255, 255, 255, 0.719);
+  background-color: rgba(255, 255, 255, 0.925);
   border: 0;
   border-radius: 2rem;
   display: inline-block;
@@ -263,8 +263,70 @@ a {
   margin-bottom: 2rem;
 }
 
-.card-deck {
-  size: 2rem 3rem 1rem 2rem;
+.home-2 {
+  height: 110vh;
+  width: 100vw;
+  padding-top: 40vh;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.5))), url("../img/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.5)), url("../img/model-1.jpg") center top;
+  background-size: cover;
+}
+
+.col-lg-4-1 {
+  margin-right: -3rem;
+  margin-left: 10rem;
+  margin-top: -4rem;
+}
+
+.col-lg-4-2 {
+  margin-right: -4rem;
+  margin-left: 8rem;
+  margin-top: -4rem;
+}
+
+.col-lg-4-3 {
+  margin-right: -2rem;
+  margin-left: 10rem;
+  margin-top: -4rem;
+}
+
+.col-lg-4-4 {
+  margin-right: -2rem;
+  margin-left: 10rem;
+  margin-top: -14rem;
+}
+
+.col-lg-4-5 {
+  margin-right: -4rem;
+  margin-left: 7rem;
+  margin-top: -14rem;
+}
+
+.col-lg-4-6 {
+  margin-right: -2rem;
+  margin-left: 10rem;
+  margin-top: -14rem;
+}
+
+.card-title {
+  color: #ff652f;
+  font-family: "Prompt", sans-serif;
+}
+
+.btn {
+  background-color: #423e3e;
+  border: gray;
+}
+
+.btn:hover {
+  background-color: #ff652f;
+  -webkit-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
 }
 
 body {
@@ -296,7 +358,7 @@ header .nav-link:hover {
 }
 
 .navigation .navbar-brand {
-  margin-left: 40px;
+  margin-left: 20px;
   padding: inherit;
   font-weight: bold;
   font-family: "Castoro", serif;
@@ -328,7 +390,7 @@ main {
 
 main .social-icons {
   position: fixed;
-  bottom: 1rem;
+  bottom: 2rem;
   left: 1rem;
   right: 1rem;
   padding: .5rem;

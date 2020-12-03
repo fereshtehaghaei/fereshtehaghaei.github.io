@@ -1,4 +1,7 @@
-.card-deck {
-  size: 2rem 3rem 1rem 2rem;
+.card-deck .card .card-body {
+  margin-top: 10rem;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 /*# sourceMappingURL=project.css.map */
