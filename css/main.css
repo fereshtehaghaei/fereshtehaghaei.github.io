@@ -264,7 +264,7 @@ a {
 }
 
 .home-2 {
-  height: 110vh;
+  height: 108vh;
   width: 100vw;
   padding-top: 40vh;
   overflow: hidden;
@@ -291,26 +291,26 @@ a {
 
 .col-lg-4-3 {
   margin-right: -2rem;
-  margin-left: 10rem;
+  margin-left: 9rem;
   margin-top: -4rem;
 }
 
 .col-lg-4-4 {
   margin-right: -2rem;
   margin-left: 10rem;
-  margin-top: -14rem;
+  margin-top: -16.5rem;
 }
 
 .col-lg-4-5 {
   margin-right: -4rem;
   margin-left: 7rem;
-  margin-top: -14rem;
+  margin-top: -16.5rem;
 }
 
 .col-lg-4-6 {
   margin-right: -2rem;
-  margin-left: 10rem;
-  margin-top: -14rem;
+  margin-left: 9rem;
+  margin-top: -16.5rem;
 }
 
 .card-title {
