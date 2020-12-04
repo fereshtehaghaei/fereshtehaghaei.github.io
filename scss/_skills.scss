@@ -1,0 +1,39 @@
+.section {
+    .card{
+    background-color: rgba(255, 255, 255, 0.719);
+    border: 0;
+    border-radius: 2rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    height: 60%;
+    margin-top: -8rem;
+    margin-bottom: 5rem;
+    margin-left: -21rem;
+    margin-bottom: 100px;
+    padding: 3rem 1rem 2rem 5rem;
+    -webkit-box-shadow: 0px 5px 25px 0px rgba(245, 10, 10, 0.664);
+            box-shadow: 0px 5px 25px 0px rgba(201, 15, 15, 0.2);
+    }
+}
+
+.title {
+    color: $secondary-color;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: $card-font;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+
+.progress-badge{
+    color: $primary-color;
+    font-size: 1.3rem;
+    font-family: $card-font;
+}
+
+a{
+    color: rgb(40, 40, 216);
+}
