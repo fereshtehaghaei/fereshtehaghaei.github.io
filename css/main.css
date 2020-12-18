@@ -55,7 +55,12 @@
   margin-right: -10rem;
   margin-left: -10px;
   margin-bottom: 2rem;
-  text-align: left;
+  text-align: center;
+}
+
+#limit{
+  width:300px;
+  word-wrap: break-word;
 }
 
 .container .card .card-body .title {
