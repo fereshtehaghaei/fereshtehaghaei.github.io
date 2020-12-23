@@ -97,7 +97,7 @@
 }
 
 .section .card {
-  background-color: rgba(255, 255, 255, 0.719);
+  background-color: red;
   border: 0;
   border-radius: 2rem;
   display: inline-block;
@@ -115,7 +115,7 @@
 }
 
 .title {
-  color: purple;
+  color: #ff652f;
   font-size: 2rem;
   font-weight: bold;
   font-family: "Prompt", sans-serif;
